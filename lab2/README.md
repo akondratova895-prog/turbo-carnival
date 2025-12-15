@@ -110,8 +110,8 @@ def start_listener():
 - Ограничить доступ к админ-панели по IP
 - Использовать WAF (Web Application Firewall)
 - Проводить периодический аудит безопасности
+  
 ## SQL Injection in CMS Made Simple - RCE
-
 ### 📋 Основные данные
 - **Тип:** RCE (Remote Code Execution) через SQL Injection  
 - **CVSS Score:** 8.1 (High) / 6.8 (CVSS v2)
@@ -146,8 +146,8 @@ Time-based unauthenticated SQL injection exploit для CMS Made Simple верс
 - Регулярно проводить аудит кода на наличие SQL-инъекций
 - Ограничить доступ к административным интерфейсам
 - Внедрить WAF для фильтрации вредоносных запросов
+- 
 ## CVE-2024-31982 — XWiki Platform Remote Code Execution
-
 ### 📋 Основные данные
 - **Тип:** RCE (Remote Code Execution)  
 - **CVSS Score:** 9.8 (Critical)
@@ -155,6 +155,11 @@ Time-based unauthenticated SQL injection exploit для CMS Made Simple верс
 - **Год:** 2024
 - **Ссылка на CVE:** [CVE-2024-31982](https://vulners.com/cve/CVE-2024-31982)
 - **Дата публикации:** 2024
+<img width="806" height="728" alt="image" src="https://github.com/user-attachments/assets/0a303609-a858-496b-81ce-bb88704f10cd" />
+<img width="584" height="754" alt="image" src="https://github.com/user-attachments/assets/5f37e065-4977-42b6-951d-fbab25a91a85" />
+<img width="812" height="769" alt="image" src="https://github.com/user-attachments/assets/6713a2c3-15dc-40d3-a653-76f4873765fb" />
+<img width="766" height="620" alt="image" src="https://github.com/user-attachments/assets/36217f4a-3556-4bcb-80ce-11e226477bb9" />
+<img width="741" height="761" alt="image" src="https://github.com/user-attachments/assets/d8c1399e-cec0-431d-a1aa-3e92a7fbf7df" />
 
 ### 📖 Описание
 XWiki Platform позволяет удалённое выполнение кода через поле поиска в базе данных, что воздействует на конфиденциальность, целостность и доступность данных.
@@ -245,6 +250,7 @@ XWiki Platform позволяет удалённое выполнение код
 **Год:** 2025  
 **CVE:** [RLSA-2025:11537](https://vulners.com/nessus/ROCKY_LINUX_RLSA-2025-11537.NASL)  
 **Дата публикации:** 2025  
+<img width="974" height="1362" alt="image" src="https://github.com/user-attachments/assets/8266e634-3f77-4787-b2e4-02bd655f0aa9" />
 
 **Описание:**  
 Rocky Linux 10 host sudo LPE через параметры host и chroot (CVE-2025-32462, CVE-2025-32463) согласно RLSA-2025:11537. На удаленном хосте RockyLinux 10 установлены пакеты, подверженные множественным уязвимостям, как указано в рекомендации RLSA-2025:11537.
@@ -273,6 +279,7 @@ Rocky Linux 10 host sudo LPE через параметры host и chroot (CVE-2
 **Год:** 2025  
 **CVE:** [GitHub Exploit](https://vulners.com/githubexploit/70D87358-07A4-5B2B-AF9A-9374F86EAF95)  
 **Дата публикации:** 2025  
+<img width="974" height="1406" alt="image" src="https://github.com/user-attachments/assets/df9e3b74-c4a6-42a4-9284-fe35f513cbbf" />
 
 **Описание:**  
 PoC для CVE-2025-32463, локальное повышение привилегий sudo через chroot и ненадежный nsswitch.conf.
